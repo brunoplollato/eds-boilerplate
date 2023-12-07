@@ -1,0 +1,216 @@
+{
+	"git.autofetch": true,
+	"git.enableSmartCommit": true,
+	"editor.fontFamily": "'Fira Code'",
+	"editor.fontLigatures": true,
+	"aws.samcli.location": "/home/lollato/.local/bin/sam",
+	"extensions.confirmedUriHandlerExtensionIds": [],
+	"sync.autoDownload": true,
+	"sync.autoUpload": true,
+	"sync.gist": "",
+	"python.pythonPath": "/usr/bin/python3",
+	"terminal.external.linuxExec": "/usr/local/bin/fish",
+	"terminal.integrated.shell.linux": "/bin/zsh",
+	"workbench.colorTheme": "2077",
+	"explorer.confirmDelete": false,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"[dart]": {
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"editor.rulers": [80],
+		"editor.selectionHighlight": false,
+		"editor.suggest.snippetsPreventQuickSuggestions": false,
+		"editor.suggestSelection": "first",
+		"editor.tabCompletion": "onlySnippets",
+		"editor.wordBasedSuggestions": false
+	},
+	"prettier.semi": true,
+	"dart.openDevTools": "flutter",
+	"terminal.integrated.fontSize": 14,
+
+	"editor.tabSize": 2,
+	"editor.fontSize": 14,
+	"editor.lineHeight": 24,
+	"editor.semanticHighlighting.enabled": false,
+
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"eslint.validate": [
+		"javascript",
+		"typescript",
+		"typescriptreact",
+		"ts",
+		"tsx",
+		"js",
+		"jsx"
+	],
+
+	"files.exclude": {
+		"**/.DS_Store": true,
+		"**/.git": false,
+		"**/.hg": true,
+		"**/.svn": true,
+		"**/CVS": true
+	},
+
+	"files.associations": {
+		".sequelizerc": "javascript",
+		".stylelintrc": "json",
+		".prettierrc": "json",
+		"*.tsx": "typescriptreact"
+	},
+
+	"typescript.tsserver.log": "verbose",
+	"material-icon-theme.activeIconPack": "nest",
+	"material-icon-theme.folders.associations": {
+		"infra": "app",
+		"entities": "class",
+		"domain": "class",
+		"schemas": "class",
+		"typeorm": "database",
+		"repositories": "mappings",
+		"http": "container",
+		"migrations": "tools",
+		"modules": "components",
+		"implementations": "core",
+		"dtos": "typescript",
+		"fakes": "mock",
+		"websockets": "pipe",
+		"protos": "pipe",
+		"grpc": "pipe",
+		"providers": "include",
+		"subscribers": "messages",
+		"useCases": "controller",
+		"kafka": "scripts",
+		"mappers": "meta",
+		"_shared": "shared",
+		"eslint-config": "tools",
+		"kube": "kubernetes"
+	},
+	"material-icon-theme.files.associations": {
+		"ormconfig.json": "database",
+		"tsconfig.json": "tune",
+		"*.proto": "3d",
+		"*.webpack.js": "webpack"
+	},
+	"window.menuBarVisibility": "compact",
+	"tabnine.experimentalAutoImports": true,
+	"cSpell.enableFiletypes": [
+		"!asciidoc",
+		"!c",
+		"!cpp",
+		"!csharp",
+		"!go",
+		"!handlebars",
+		"!haskell",
+		"!jade",
+		"!java",
+		"!latex",
+		"!php",
+		"!pug",
+		"!python",
+		"!restructuredtext",
+		"!rust",
+		"!scala"
+	],
+	"cSpell.language": "en,pt",
+	"editor.suggestSelection": "first",
+	"cSpell.userWords": ["chakra", "middlewares", "prefetch", "rocketseat"],
+	"terminal.integrated.showExitAlert": false,
+	"splitHTMLAttributes.closingBracketOnNewLine": true,
+	"explorer.confirmDragAndDrop": false,
+	"mssql.connections": [
+		{
+			"server": "{{put-server-name-here}}",
+			"database": "{{put-database-name-here}}",
+			"user": "{{put-username-here}}",
+			"password": "{{put-password-here}}"
+		}
+	],
+	"colorize.languages": [
+		"javascript",
+		"typescript",
+		"javascriptreact",
+		"typescriptreact",
+		"json",
+		"html",
+		"css"
+	],
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"editor.wordWrap": "on",
+	"diffEditor.wordWrap": "on",
+	"[Log]": {
+		"editor.wordWrap": "on"
+	},
+	"editor.accessibilitySupport": "off",
+	"createReactTSXComponent.stylesFormat": "SCSS",
+	"eslint.alwaysShowStatus": true,
+	"eslint.format.enable": true,
+	"eslint.run": "onSave",
+	"eslint.packageManager": "yarn",
+	"prettier.configPath": "./.prettierrc",
+	"prettier.jsxSingleQuote": true,
+	"prettier.jsxBracketSameLine": true,
+	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
+	"eslint.codeAction.showDocumentation": {
+		"enable": true
+	},
+	"editor.formatOnType": true,
+	"html.format.indentInnerHtml": true,
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"workbench.iconTheme": "material-icon-theme",
+	"terminal.integrated.fontFamily": "monospace",
+	"editor.unicodeHighlight.nonBasicASCII": false,
+	"editor.unicodeHighlight.invisibleCharacters": false,
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"peacock.affectEditorGroupBorder": true,
+	"peacock.affectSideBarBorder": true,
+	"peacock.affectStatusAndTitleBorders": true,
+	"peacock.affectTabActiveBorder": true,
+	"security.workspace.trust.untrustedFiles": "open",
+	"git.confirmSync": false,
+	"yaml.schemas": {
+		"file:///Users/brunolollato/.vscode/extensions/atlassian.atlascode-3.0.9/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+	},
+	"atlascode.jira.enabled": true,
+	"atlascode.bitbucket.enabled": false,
+	"atlascode.jira.jqlList": [
+		{
+			"id": "fc3ea3ce-34b1-4059-b21a-bd2492c42318",
+			"enabled": true,
+			"name": "My ifcshop Issues",
+			"query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+			"siteId": "713fd4c7-380a-4472-92cf-87a66927b835",
+			"monitor": true
+		}
+	],
+	"autoHide.autoHidePanel": false,
+	"redhat.telemetry.enabled": true,
+	"workbench.startupEditor": "none",
+	"terminal.external.osxExec": "Warp.app",
+	"docuwriter-ai---vscode-extension.apiKey": "ViopajYsPg5RoeanzPpigZPs3K8T0cst8cIumqYc",
+	"editor.formatOnPaste": true,
+	"projectManager.git.baseFolders": ["/Users/brunolollato/Personal-Projects"],
+	"projectManager.groupList": true,
+	"projectManager.ignoreProjectsWithinProjects": true,
+	"projectManager.showParentFolderInfoOnDuplicates": true,
+	"projectManager.vscode.baseFolders": [
+		"/Users/brunolollato/Infracommerce",
+		"/Users/brunolollato/Personal-Projects"
+	],
+	"projectManager.any.baseFolders": [
+		"/Users/brunolollato/Infracommerce",
+		"/Users/brunolollato/Personal-Projects"
+	],
+	"window.commandCenter": false,
+	"workbench.layoutControl.enabled": false,
+	"eslint.codeActionsOnSave.mode": "problems",
+	"remote.SSH.connectTimeout": 150,
+	"remote.SSH.useLocalServer": false,
+	"remote.SSH.remotePlatform": {
+		"192.168.68.102": "macOS"
+	}
+}
