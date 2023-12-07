@@ -10,7 +10,8 @@
     "start": "next start",
     "lint": "next lint",
     "commitlint": "commitlint --edit",
-    "test": "jest --watch",
+    "test": "jest",
+    "test:watch": "jest --watch",
     "prepare": "husky install",
     "semantic-release": "HUSKY=0 semantic-release"
   },
