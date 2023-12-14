@@ -22,7 +22,7 @@
 		"editor.suggest.snippetsPreventQuickSuggestions": false,
 		"editor.suggestSelection": "first",
 		"editor.tabCompletion": "onlySnippets",
-		"editor.wordBasedSuggestions": false
+		"editor.wordBasedSuggestions": "off"
 	},
 	"prettier.semi": true,
 	"dart.openDevTools": "flutter",
@@ -34,7 +34,7 @@
 	"editor.semanticHighlighting.enabled": false,
 
 	"editor.codeActionsOnSave": {
-		"source.fixAll.eslint": true
+		"source.fixAll.eslint": "explicit"
 	},
 	"eslint.validate": [
 		"javascript",
